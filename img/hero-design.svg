@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="676" height="676" viewBox="0 0 676 676">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1c1c1c;
+      }
+
+      .cls-2 {
+        fill: #f5ff65;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #2aecdf;
+      }
+    </style>
+  </defs>
+  <g id="Group_3" data-name="Group 3" transform="translate(-901 -277)">
+    <g id="Group_2" data-name="Group 2">
+      <rect id="Rectangle_8" data-name="Rectangle 8" class="cls-1" width="169" height="169" rx="27" transform="translate(1239 277)"/>
+      <rect id="Rectangle_10" data-name="Rectangle 10" class="cls-2" width="169" height="169" rx="84.5" transform="translate(1239 446)"/>
+      <rect id="Rectangle_15" data-name="Rectangle 15" class="cls-2" width="169" height="169" rx="84.5" transform="translate(1070 784)"/>
+      <rect id="Rectangle_12" data-name="Rectangle 12" width="169" height="169" rx="27" transform="translate(1239 615)"/>
+      <rect id="Rectangle_14" data-name="Rectangle 14" width="169" height="169" rx="27" transform="translate(901 615)"/>
+      <rect id="Rectangle_11" data-name="Rectangle 11" class="cls-1" width="169" height="169" rx="27" transform="translate(1408 446)"/>
+      <rect id="Rectangle_9" data-name="Rectangle 9" class="cls-3" width="169" height="169" rx="27" transform="translate(1070 446)"/>
+      <g id="Group_4" data-name="Group 4">
+        <rect id="Rectangle_18" data-name="Rectangle 18" class="cls-4" width="32" height="205" transform="matrix(0.719, 0.695, -0.695, 0.719, 1213.485, 615)"/>
+        <rect id="Rectangle_19" data-name="Rectangle 19" class="cls-4" width="32" height="205" transform="translate(1070 639.737) rotate(-45)"/>
+      </g>
+    </g>
+  </g>
+</svg>
