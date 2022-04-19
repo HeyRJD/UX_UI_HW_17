@@ -17,6 +17,8 @@ a {
 
 img {
   width: 100%;
+  border-radius:20px;
+  padding-left: 15;
 }
 
 .content {
@@ -29,6 +31,13 @@ img {
 
 .nav-container a {
   color: white;
+  
+    transition:color .4s ease;
+  
+  }
+  ..nav a:hover {
+    color: #9000FE;
+  }
 }
 
 header {
@@ -37,7 +46,7 @@ header {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-content: space-evenly;
   padding: 2em;
 }
 
@@ -59,10 +68,6 @@ header nav ul {
 header nav ul a {
   display: block;
   padding: 0 1em;
-}
-
-.social-header, .hero-design {
-  display: none;
 }
 
 .hero {
@@ -300,53 +305,75 @@ section {
   padding: 4em;
 }
 
-.social-footer {
-  display: block;
-}
-
-.social-footer ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 7em;
-  float: right;
-  padding-right: 4em;
-  padding-top: 2em;
-}
-
-.social-footer ul img {
-  width: 20px;
-}
-
 footer {
-  padding: 2em 2em 2em 4em;
-}
-
-.nav-container-footer {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 66% auto;
-      grid-template-columns: 66% auto;
-  background: unset;
-}
-
-.nav-container-footer ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  float: inline-start;
-}
-
-.nav-container-footer footer {
   background: #1c1c1c;
+  height: auto;
+  width: 100vw;
+  font-family: "Open Sans";
+  padding-top: 40px;
+  color: #F5FF65;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-cotent h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+
+}
+.footer-conent p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+
+}
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0rem 0 3rem 0;
+
+}
+.socials li {
+  margin: 0 5px;
+}
+.socials a {
+  text-decoration: none;
+  color: #F5FF65;
+}
+.socials a i {
+  font-size: 1.1rem;
+  transition:color .4s ease;
+
+}
+.socials a:hover i {
+  color: #9000FE;
 }
 
+.footer-bottom {
+  background: #1c1c1c;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
 @media only screen and (min-width: 1250px) {
   header {
     padding: 2em 2em 2em 10em;
@@ -360,11 +387,6 @@ footer {
   .hero .content {
     padding: 6em 8em 6em 10em;
   }
-  footer {
-    padding: 2em 2em 2em 10em;
-  }
-  .social-footer {
-    padding: 2em 10em 2em 0;
-  }
+
 }
 /*# sourceMappingURL=main.css.map */

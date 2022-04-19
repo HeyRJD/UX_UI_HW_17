@@ -7,6 +7,10 @@
     padding: 1%;
 }
 
+img {
+        border-radius: 20%;
+      
+}
 nav {
     width: 73%;
     padding: 1%;

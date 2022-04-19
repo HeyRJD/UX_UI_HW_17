@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/a01b09079e.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -20,18 +21,18 @@
                     <li><a href="#">My Work</a></li>
                     <li><a href="#">My Skills</a></li>
                     <li><a href="#">Hire Me</a></li>
-                    
+                       
+                            <ul class="socials">
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                            </ul>
+                        
                 </ul>
+                
             </nav>
         </header>
 
-            <div class="social-header">
-                 <ul>
-                    <li><a href="#"><img src="img/dribbble.svg" alt="dribbble"></a></li>
-                    <li><a href="#"><img src="img/behance.svg" alt="behance"></a></li>
-                    <li><a href="#"><img src="img/linkedin.svg" alt="linkedin"></a></li>
-                </ul>
-            </div>
      </div>
 
      <div class="hero">
@@ -58,7 +59,7 @@
                 
             </div>
          </div>
-         <img class="right transition2" src="img/brag.png" alt="Featured Project">
+         <img class="img" src="img/brag.svg" alt="Featured Project">
 
      </section>
      <section class="skills">
@@ -109,33 +110,27 @@
                     <p class="featured-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus sapiente optio blanditiis omnis corporis quis magni voluptatum nihil adipisci obcaecati?</p>
                 </div>
             </div>
-            <a href="#"><img src="#" alt="#"></a>
+            <a href="#"><img src="img/usda.svg" alt="#"></a>
         </div>
     </section>
 
     <?php $IPATH = $_SERVER["DOCULEMT_ROOT"]."/asset/php/"; include($IPATH. "footernav.html"); ?>
-        
-        <div class="footer">
-            <div class="nav-container-footer">
-             <footer>
-                 <nav>
-                    <ul>
-                        <li><a href="#">My Work</a></li>
-                        <li><a href="#">My Skills</a></li>
-                        <li><a href="#">Hire Me</a></li>
-                        
-                    </ul>
-                </nav>
-            </footer>
-    
-                <div class="social-footer">
-                     <ul>
-                        <li><a href="#"><img src="img/dribbble.svg" alt="dribbble"></a></li>
-                        <li><a href="#"><img src="img/behance.svg" alt="behance"></a></li>
-                        <li><a href="#"><img src="img/linkedin.svg" alt="linkedin"></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+
+    <footer>
+       <div class="footer-content">
+           <h3>
+                Thanks for checking me out! Please feel free to reach out if you have any questions. 
+           </h3>
+           <p>Socials</p>
+           <ul class="socials">
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+            <li><a href="#"><i class="fa fa-behance"></i></a></li>
+            </ul>
+       </div>
+       <div class="footer-bottom">
+           <p>copyright &copy;2022 Hey RJ. designed by <span>RJ Ramos</span></p>
+       </div>
+    </footer>
 </body>
 </html>
